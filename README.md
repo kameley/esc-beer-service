@@ -1,1 +1,3 @@
-# esc-beer-service
+# ESC Beer Service
+
+Spring Boot Microservices example
