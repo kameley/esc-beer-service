@@ -1,9 +1,9 @@
-package web.controller;
+package esc.springframework.escbeerservice.web.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import web.model.BeerDto;
+import esc.springframework.escbeerservice.web.model.BeerDto;
 
 import java.util.UUID;
 

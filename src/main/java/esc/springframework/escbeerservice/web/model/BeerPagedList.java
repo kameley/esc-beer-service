@@ -1,6 +1,5 @@
-package web.model;
+package esc.springframework.escbeerservice.web.model;
 
-import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 

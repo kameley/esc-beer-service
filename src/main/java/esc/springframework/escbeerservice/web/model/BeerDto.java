@@ -1,4 +1,4 @@
-package web.model;
+package esc.springframework.escbeerservice.web.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
