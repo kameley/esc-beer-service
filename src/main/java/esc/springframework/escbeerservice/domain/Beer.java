@@ -23,7 +23,7 @@ public class Beer
 {
     @Id
     @GeneratedValue(generator = "UUID")
-    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UIDGenerator")
+    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
     @Column(length = 36, columnDefinition = "varchar", updatable = false, nullable = false)
     private UUID id;
 
@@ -35,7 +35,7 @@ public class Beer
     private Timestamp createdDate;
 
     @UpdateTimestamp
-    private Timestamp lastModifedDate;
+    private Timestamp lastModifiedDate;
 
     private String beerName;
     private String beerStyle;
